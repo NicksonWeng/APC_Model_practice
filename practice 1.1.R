@@ -46,7 +46,7 @@ ds$COHORT.S[ds$COHORT.S < 1895] <- "1890"
 e = 1
 i = 1895
 
-while(e<18){
+while(e<20){
   a <- paste(i,":",(i+4),"=","'",i,"-",(i+4),"'" )
   b <- paste(i,":",(i+4),"=","'",i,"'" )
   ds$COHORT.S <- recode(ds$COHORT.S, b)
